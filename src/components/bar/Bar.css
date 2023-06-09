@@ -1,0 +1,19 @@
+.bar-container {
+  width: 70%;
+  height: 30px;
+  border: 1px solid #000;
+  margin-bottom: 10px;
+  position: relative; }
+
+.bar {
+  height: 100%; }
+
+.bar-usage-amount {
+  position: absolute;
+  left: 47%; }
+
+.over-usage {
+  background-color: #DC143C; }
+
+.normal-usage {
+  background-color: #63cfeb; }

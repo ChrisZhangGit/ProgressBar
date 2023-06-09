@@ -1,0 +1,29 @@
+@import "../../scss/screens";
+
+
+.bar-group-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: $sm) {
+  .bar-group-container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: $sm) and (max-width: $md) {
+  .bar-group-container {
+    width: 90%;
+  }
+}
+
+
+@media screen and (min-width: $md) {
+  .bar-group-container {
+    width: 60%;
+  }
+}

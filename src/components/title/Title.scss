@@ -1,0 +1,41 @@
+@import "../../scss/fonts";
+@import "../../scss/screens";
+
+.title-container {
+  h2 {
+    font-size: 25px;
+    @include bold;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: $sm) {
+  .title-container {
+    h2 {
+      font-size: 20px;
+      @include regular;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media screen and (min-width: $sm) and (max-width: $md) {
+  .title-container {
+    h2 {
+      font-size: 23px;
+      @include medium;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+
+@media screen and (min-width: $md) {
+  .title-container {
+    h2 {
+      font-size: 25px;
+      @include bold;
+      margin-bottom: 30px;
+    }
+  }
+}
